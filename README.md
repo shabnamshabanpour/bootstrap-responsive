@@ -2,10 +2,14 @@
 
 **This is an exersise with bootstrap**
 
-![view]()
-
 
 🌐[Demo Project](https://shabnamshabanpour.github.io/bootstrap-responsive/)
+
+Phone size:
+
+<img width="597" height="866" alt="Image" src="https://github.com/user-attachments/assets/735a3e33-01b9-4413-8921-7056fba9f835" />
+
+laptob size:
 
 💻 Developed by shabnam shabanpour
 
