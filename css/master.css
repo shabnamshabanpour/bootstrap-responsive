@@ -1,0 +1,110 @@
+body {
+  font-family: "Patua One", serif;
+}
+
+
+
+.navhome {
+  background-color: rgb(59, 183, 126);
+  color: white;
+
+  &:hover {
+    background-color: rgb(59, 155, 112);
+  }
+}
+
+.navcontact {
+  background-color: rgb(83, 82, 82);
+  color: white;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgb(59, 183, 126);
+  }
+}
+
+header nav a {
+  position: relative;
+  color: #222;
+  transition: color 0.3s ease;
+  z-index: 1;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #3bb77e;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.45s cubic-bezier(.4, 0, .2, 1);
+    z-index: -1;
+    border-radius: 8px;
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+  }
+
+}
+
+.ri-menu-line {
+  color: rgb(59, 183, 126);
+  font-size: 40px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgb(47, 165, 111);
+  }
+}
+
+/* end header  */
+.hero {
+  background: url("../img/imgi_27_pattern_bg.jpg") repeat;
+  padding-bottom: 200px;
+  border-bottom: 3px dotted #fff;
+
+  >div {
+    >h1 {
+      font-size: 70px;
+    }
+
+    >.pets {
+      margin-bottom: -350px;
+      z-index: 2;
+      position: relative;
+      transform: scale(1.1);
+    }
+  }
+
+}
+/* end hero  */
+
+.pet-info {
+  margin-top: 180px;
+}
+
+.pet-info h2{
+  color: #4c5166;
+  font-size: 50px;
+}
+.pet-info .info{
+  color: #a1a4aa !important;
+  font-size: 16px;
+
+}
+
+.emergency-box {
+  background-color: rgb(67, 198, 172); 
+}
+
+.email-box {
+  background-color: rgb(63, 70, 80); 
+}
+
+
+
+/* end second section  */
