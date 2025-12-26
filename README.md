@@ -11,6 +11,8 @@ Phone size:
 
 laptob size:
 
+<img width="1242" height="871" alt="Image" src="https://github.com/user-attachments/assets/0216c483-1186-46ea-a4e3-0381a56d0d78" />
+
 💻 Developed by shabnam shabanpour
 
 🕓 Date - 2025-11-28
